@@ -40,11 +40,16 @@ L’application est écrite **principalement en Java et en C**. Conception déta
 ## Dépôt
 
 ```
-app/        Application Java
-native/     Bibliothèque C (liblobotomie)
-scripts/    Build / packaging
+app/                      Application Java (Maven + JavaFX)
+native/                   Bibliothèque C (liblobotomie)
+scripts/                  Build / packaging
+lobotomie.code-workspace  Espace de travail Cursor (ouvre app/)
 Conception.md
 ```
+
+Développement Java : ouvrir **`lobotomie.code-workspace`**.  
+Extensions recommandées : pack **Extension Pack for Java** (`vscjava.vscode-java-pack`).
+
 
 Le suivi du projet se fait par **commits Git** (pas de numérotation de versions produit).
 

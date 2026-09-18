@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": "app"
+    }
+  ],
+  "settings": {
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.import.maven.enabled": true,
+    "maven.executable.path": "/usr/bin/mvn"
+  },
+  "extensions": {
+    "recommendations": [
+      "vscjava.vscode-java-pack"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "maven.executable.path": "/usr/bin/mvn"
+}

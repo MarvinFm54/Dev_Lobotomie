@@ -26,7 +26,7 @@ Le suivi du projet se fait par **commits Git** — pas de numérotation de versi
 | **Format des cours**       | Markdown + Flexmark | Fiches avec mise en forme et blocs de code.                             |
 | **Format des données**     | JSON (Jackson)      | Métadonnées, banques d’exercices, progressions locales.                 |
 | **Build natif**            | CMake               | Compilation de `liblobotomie` (`.so` / `.dll` / `.dylib`).              |
-| **Build Java**             | Maven ou Gradle     | Application, tests, packaging.                                          |
+| **Build Java**             | Maven               | Application, tests, packaging.                                          |
 
 
 Choix pédagogique : **conversions et bit-ops passent par le C** via FFM (interop Java↔C volontaire, pas le chemin le plus court).
@@ -148,7 +148,7 @@ Dev_Lobotomie/
 ├── .gitignore
 │
 ├── app/
-│   ├── pom.xml                   # ou build.gradle.kts
+│   ├── pom.xml
 │   └── src/
 │       ├── main/
 │       │   ├── java/fr/marvinfm/lobotomie/
